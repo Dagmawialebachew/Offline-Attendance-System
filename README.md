@@ -23,31 +23,17 @@ Features
 How to setup and run the project
 
 First, clone the repository 
-   Open your terminal or Git Bash and run:
-   git clone https://github.com/dagmawialebachew/offline-attendance-system.git
-Navigate to the Project Directory
-
-bash
-Copy
-Edit
-cd smartattend-offline-attendance
-Ensure Python 3 is installed
-You can check with:
-
-bash
-Copy
-Edit
-python --version
-Prepare your student list
-
-Create a CSV file (e.g., students.csv) with two columns: StudentID and FullName.
-
-Run the Attendance Script
-
-bash
-Copy
-Edit
-python smart_attend.py
+    Open your terminal or Git Bash and run:
+    git clone https://github.com/dagmawialebachew/offline-attendance-system.git
+    Navigate to the Project Directory
+    cd offline-attendance-system
+    Ensure Python 3 is installed
+    You can check with:
+    python --version
+Second, Prepare the student list
+    Create a CSV file (e.g., students.csv) with two columns: StudentID and FullName.
+Third, Run the Attendance Script
+    python offline-attendance-system.py
 
 Group Members
 
