@@ -1,5 +1,5 @@
-git clone https://github.com/fkr-yosef/Offline-Attendance-System.git
-cd Offline-Attendance-System# Offline-Attendance-System
+Offline-Attendance-System
+
 Project Description
 
 -OAS is an attendance-taking system developed for instructors who use paper-based systems currently. The system imports student names from a CSV file and makes teachers mark attendance through a simple command-line interface. Key feature: Attendance is recorded as dated CSV files to be used afterwards. The solution decreases wastage of paperworks, makes it more precise, and simulates integration with a university database in a beginner-friendly approach.
