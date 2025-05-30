@@ -2,7 +2,7 @@ from datetime import datetime
 from attendance_intro_ui import welcome_message, teacher_name
 from attendance_reader import read_students
 from attendance_saver import save_attendance
-from attendance_marker import mark_students
+from attendance_marker import mark_attendance
 
 
 # This is the main function that controls the whole program to proceed step by step....
@@ -25,7 +25,7 @@ def main():
   students = read_students("students.csv")
   
   # Mark their attendance file using the function imported from attedance-marker.py file
-  attendance = mark_students(students)
+  attendance = mark_attendance(students)
   
   #Save the attendance to a CSV file using the function declared in attendace-saver.py
   save_attendance(attendance, today, t_name)
