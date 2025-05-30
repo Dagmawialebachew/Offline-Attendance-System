@@ -2,7 +2,7 @@ from datetime import datetime
 from attendance_intro_ui import welcome_message, teacher_name
 from attendance_reader import read_students
 from attendance_saver import save_attendance
-from attendance_marker import mark_attendance
+from attendance_marker import mark_students
 
 
 # This is the main function that controls the whole program to proceed step by step....
