@@ -13,8 +13,8 @@ def main():
         print("The program is exited")
         exit()
 
-  teacher_name = teacher_name() #Get also the teacher_name from the imported teacher_name function.
-  print(f"\nHello {teacher_name}, let's take attendance\n") #Ask the Lecuter's name to create better user experience, and save files according to specific Lecuters
+  t_name = teacher_name() #Get also the teacher_name from the imported teacher_name function.
+  print(f"\nHello {t_name}, let's take attendance\n") #Ask the Lecuter's name to create better user experience, and save files according to specific Lecuters
   
   # Get today's date as a string (e.g. "2025-05-29")
   today = datetime.now().strftime("%Y-%m-%d")
@@ -25,10 +25,10 @@ def main():
   students = read_students("students.csv")
   
   # Mark their attendance file using the function imported from attedance-marker.py file
-  attendance = mark_attendance(students)
+  attendance = mark_students(students)
   
   #Save the attendance to a CSV file using the function declared in attendace-saver.py
-  save_attendance(attendance, today, teacher_name)
+  save_attendance(attendance, today, t_name)
 
 # Run the main function to start the program
 main()
