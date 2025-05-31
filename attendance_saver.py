@@ -1,8 +1,6 @@
 import csv
-from attendance_intro_ui import teacher_name #importing the teacher name function from the attendance_intro_ui python file
-
 # This function saves the attendance records into a new CSV file
-def save_attendance(attendance, today):
+def save_attendance(attendance, today,t_name):
     # File name e.g. attendance_2025-05-29.csv
     filename = teacher_name + "_attendance_" + today + ".csv"
     
