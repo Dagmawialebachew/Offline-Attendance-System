@@ -20,7 +20,7 @@
  5                                -Calls read_students                          
                                    mark_attendance-> save_attendance                          
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-       Github and Testing +       -Commits/pushes                                   Github desktop,VS code,markdown          Github,Testing & Repo Setup: Dagmawi Tewodros &                                                                                                                                                                 Tsinat Baheru
+       Github and Testing +       -Commits/pushes                                   Github desktop,VS code,markdown          Github,Testing & Repo Setup: Dagmawi Tewodros &                                                                                                                                                                  Tsinat Baheru
  6     CSV marker                 -Creates README.md,testing.py files                                                                                     
                                   -Creates and maintains "students.csv" files                                                
                                   -Organizes team roles and create Team_role.txt                                             CSV File creator: Tsinat Baheru 
