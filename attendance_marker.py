@@ -1,6 +1,6 @@
 def mark_attendance(students): #define a function that mark the attendance for the students.
   attendance_list = []  # Empty list to store each student's attendance record
-  print("\nEnter P for Present, A for Absent\n")  # Instructions to the user
+  print("\nEnter P for Present, A or any key for Absent\n")  # Instructions to the user
   for student in students:
           student_id = student[0]
           full_name = student[1]
